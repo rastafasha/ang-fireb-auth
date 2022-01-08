@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "loginapp-7e55c": {
+      "hosting": {
+        "firebAuthUser": [
+          "loginapp-7e55c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "loginapp-7e55c"
+  }
+}

@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "firebAuthUser:build:production",
+            "firebaseProject": "loginapp-7e55c",
+            "firebaseHostingSite": "loginapp-7e55c"
+          }
         }
       }
     }
